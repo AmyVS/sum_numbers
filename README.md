@@ -8,7 +8,7 @@ This is a module that works with Drupal 7.x. It consists of a form that takes tw
 Provided you are using MAMP, please refer to the following steps:
 
 1. Using your command line tool, go into this directory: 
-`cd /Applications/MAMP/htdocs/_your_drupal_folder_/sites/all/modules`
+`/Applications/MAMP/htdocs/_your_drupal_folder_/sites/all/modules`
 2. Type "git clone" followed by the HTTPS clone URL, found on the right side of this page.
 3. Head on over to your Drupal 7.x site
 4. Click on "Modules", located on your admin navbar
