@@ -3,4 +3,14 @@
 function sum_numbers_menu(){
   $items = array();
 
+  $items['sum_numbers'] = array(
+    'title' => 'Sum Spectacular!',
+    'description' => 'A form that will add two integers',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('sum_numbers_form'),
+    'access callback' => TRUE
+  );
+  return
+
+$items
 }
