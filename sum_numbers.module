@@ -12,5 +12,24 @@ function sum_numbers_menu(){
   );
   return
 
-$items
+$items;
+}
+
+function sum_numbers_form($form, &$form_state) {
+
+  $form['first'] = array(
+    '#type' => 'textfield',
+    '#title' => 'First number:',
+  );
+
+  $form['second'] = array(
+    '#type' => 'textfield',
+    '#title' => 'Second number:',
+  );
+
+  $form['submit_button'] = array(
+    '#type' => 'submit',
+    '#value' => t('Add numbers!'),
+  );
+  return $form;
 }
