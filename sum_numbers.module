@@ -20,16 +20,19 @@ function sum_numbers_form($form, &$form_state) {
   $form['first'] = array(
     '#type' => 'textfield',
     '#title' => 'First number:',
+    '#required' => TRUE,
   );
 
   $form['second'] = array(
     '#type' => 'textfield',
     '#title' => 'Second number:',
+    '#required' => TRUE,
   );
 
   $form['submit_button'] = array(
     '#type' => 'submit',
     '#value' => t('Add numbers!'),
+    '#required' => TRUE,
   );
   return $form;
 }
