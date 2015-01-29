@@ -1,3 +1,3 @@
 name = sum_numbers
-description = a form that takes two numberical inputs from a user and returns their sum
+description = a form that takes two numerical inputs from a user and returns their sum
 core = 7.x
